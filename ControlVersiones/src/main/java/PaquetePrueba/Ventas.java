@@ -13,12 +13,14 @@ public class Ventas {
     String factura;
     String producto;
     String Cliente;
+    String DetalleVenta;
 
-    public Ventas(String costo, String factura, String producto, String Cliente) {
+    public Ventas(String costo, String factura, String producto, String Cliente,String DetalleVenta) {
         this.costo = costo;
         this.factura = factura;
         this.producto = producto;
         this.Cliente = Cliente;
+        this.DetalleVenta=DetalleVenta;
     }
 
     public String getCosto() {
