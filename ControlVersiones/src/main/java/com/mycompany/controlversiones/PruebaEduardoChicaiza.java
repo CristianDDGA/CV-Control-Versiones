@@ -27,7 +27,7 @@ public class PruebaEduardoChicaiza {
     }
    
     public double calcularPromedio(){
-        double promedio = (this.nota1 + this.nota2)/2;
+        double promedio = (this.nota1 + this.nota2)/3;
         return promedio;
     }
     
