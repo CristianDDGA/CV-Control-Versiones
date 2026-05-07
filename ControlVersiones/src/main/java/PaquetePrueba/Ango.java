@@ -9,5 +9,5 @@ package PaquetePrueba;
  * @author Lenovo
  */
 public class Ango {
-    
+    //Integrante Eduardo Chicaiza
 }
