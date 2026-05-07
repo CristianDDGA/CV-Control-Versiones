@@ -32,7 +32,7 @@ public class PruebaEduardoChicaiza {
     }
     
     public String verificarEstado(){
-        if(calcularPromedio() >= 14){
+        if(calcularPromedio() >= 7){
             return "Aprobado";
         }else{
             return "Reprobado";
