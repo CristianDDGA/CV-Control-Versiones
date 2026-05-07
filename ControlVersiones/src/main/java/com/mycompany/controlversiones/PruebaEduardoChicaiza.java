@@ -31,8 +31,17 @@ public class PruebaEduardoChicaiza {
         return promedio;
     }
     
+    public String verificarEstado(){
+        if(calcularPromedio() >= 14){
+            return "Aprobado";
+        }else{
+            return "Reprobado";
+        }
+    }
+    
     public static void main(String[] args) {
         PruebaEduardoChicaiza obj = new PruebaEduardoChicaiza(9.5, 7.5);
         System.out.println("El promedio es: " + obj.calcularPromedio());
+        System.out.println("Estado: " + obj.verificarEstado());
     }
 }
