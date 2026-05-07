@@ -52,7 +52,7 @@ public class PruebaBalsecaKevin {
     public static void main(String[] args) {
         PruebaBalsecaKevin miPrueba = new PruebaBalsecaKevin("Assassin's Creed IV", 90.75, true);
         System.out.println("Titulo: " + miPrueba.getTituloVideojuego());
-        System.out.println("Tiempo de juego: " + miPrueba.getHorasJugadas() + " horas");
+        System.out.println("Tiempo de juego: " + miPrueba.getHorasJugadas() + " horas empleadas.");
         System.out.println("Diagnostico: " + miPrueba.evaluarEstado());
     }
 }
