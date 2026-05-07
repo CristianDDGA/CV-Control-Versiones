@@ -43,5 +43,6 @@ public class PruebaEduardoChicaiza {
         PruebaEduardoChicaiza obj = new PruebaEduardoChicaiza(9.5, 7.5);
         System.out.println("El promedio es: " + obj.calcularPromedio());
         System.out.println("Estado: " + obj.verificarEstado());
+        System.out.println("Nota 1: " + obj.getNota1());
     }
 }
